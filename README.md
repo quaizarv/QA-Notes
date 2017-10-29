@@ -4039,7 +4039,7 @@
     -   A giant ensemble of traditional NLP features as well as DNN features. The
         arch is shown below
         
-        ![img](/Users/qv/data-science/nlp/images/ecnu-semeval-2017-arch.png)
+        ![img](ecnu-semeval-2017-arch.png)
     
     -   **Traditional NLP features:** There are 2 sub-types of Traditional NLP
         features
