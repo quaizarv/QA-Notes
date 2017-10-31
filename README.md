@@ -2,157 +2,157 @@
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#orga5958ac">1. Question &amp; Answering</a>
+<li><a href="#org9cfe32c">1. Question &amp; Answering</a>
 <ul>
-<li><a href="#org8d68245">1.1. Question Taxonomy</a></li>
-<li><a href="#org8a1e4f8">1.2. Question Analysis</a>
+<li><a href="#org0cb293b">1.1. Question Taxonomy</a></li>
+<li><a href="#orga9a8444">1.2. Question Analysis</a>
 <ul>
-<li><a href="#org9d14f01">1.2.1. Watson Q Analysis</a></li>
+<li><a href="#org23af8d6">1.2.1. Watson Q Analysis</a></li>
 </ul>
 </li>
-<li><a href="#org6084179">1.3. Information Extraction (Knowledge Base Population)</a>
+<li><a href="#org73db527">1.3. Information Extraction (Knowledge Base Population)</a>
 <ul>
-<li><a href="#org82a1dbe">1.3.1. Introduction:</a></li>
-<li><a href="#org90c868c">1.3.2. NER</a></li>
-<li><a href="#orgf568260">1.3.3. Relation Extraction (RE)</a></li>
+<li><a href="#orgf54ee26">1.3.1. Introduction:</a></li>
+<li><a href="#orga9cf2cd">1.3.2. NER</a></li>
+<li><a href="#orgc43d68e">1.3.3. Relation Extraction (RE)</a></li>
 </ul>
 </li>
-<li><a href="#org704d49f">1.4. QA from Structured KB</a>
+<li><a href="#org196241c">1.4. QA from Structured KB</a>
 <ul>
-<li><a href="#orgc1c8e96">1.4.1. KBs</a></li>
-<li><a href="#org3eecc02">1.4.2. KBQA</a></li>
-<li><a href="#org41c30b8">1.4.3. Attention</a></li>
-<li><a href="#org996cc1f">1.4.4. Inference in KBs</a></li>
+<li><a href="#org707d468">1.4.1. KBs</a></li>
+<li><a href="#org0b0dc58">1.4.2. KBQA</a></li>
+<li><a href="#orga0cb64d">1.4.3. Attention</a></li>
+<li><a href="#org3c5fb3d">1.4.4. Inference in KBs</a></li>
 </ul>
 </li>
-<li><a href="#orgc7f9c1c">1.5. IR based QA</a>
+<li><a href="#orgfc8631a">1.5. IR based QA</a>
 <ul>
-<li><a href="#org2dca32a">1.5.1. Semantic Search</a></li>
-<li><a href="#orgf7021a5">1.5.2. Query Preprocessing</a></li>
-<li><a href="#orgdbd847f">1.5.3. Query Formulation</a></li>
-<li><a href="#orge4504b6">1.5.4. Important Papers</a></li>
-<li><a href="#orgde5cb08">1.5.5. DataSets</a></li>
-<li><a href="#orgc1d0abb">1.5.6. Overall Pipeline* NLP Coursera Slides</a></li>
+<li><a href="#org969d02a">1.5.1. Semantic Search</a></li>
+<li><a href="#orgc98d184">1.5.2. Query Preprocessing</a></li>
+<li><a href="#orgff007b7">1.5.3. Query Formulation</a></li>
+<li><a href="#orgeda6f19">1.5.4. Important Papers</a></li>
+<li><a href="#orgc7e4892">1.5.5. DataSets</a></li>
+<li><a href="#org533f4da">1.5.6. Overall Pipeline* NLP Coursera Slides</a></li>
 </ul>
 </li>
-<li><a href="#org0802c5f">1.6. Answer Sentence Selection</a>
+<li><a href="#org43e5390">1.6. Answer Sentence Selection</a>
 <ul>
-<li><a href="#org539f571">1.6.1. LDC Method</a></li>
-<li><a href="#org730bb29">1.6.2. Important Papers</a></li>
+<li><a href="#org94d1d59">1.6.1. LDC Method</a></li>
+<li><a href="#org10310ed">1.6.2. Important Papers</a></li>
 </ul>
 </li>
-<li><a href="#org04e8e0e">1.7. Machine Comprehension</a>
+<li><a href="#org5f70032">1.7. Machine Comprehension</a>
 <ul>
-<li><a href="#orgf8e9ad0">1.7.1. multi-context using seq2seq model</a></li>
-<li><a href="#orgebfd6b4">1.7.2. Using Memory Networks (from of attention)</a></li>
-<li><a href="#org8f81aa6">1.7.3. Using Manually Curated Syntactic/Semantic Features</a></li>
-<li><a href="#orgfad30ea">1.7.4. DataSets</a></li>
+<li><a href="#orga97b18f">1.7.1. multi-context using seq2seq model</a></li>
+<li><a href="#org4bcdbb0">1.7.2. Using Memory Networks (from of attention)</a></li>
+<li><a href="#org1f2464d">1.7.3. Using Manually Curated Syntactic/Semantic Features</a></li>
+<li><a href="#org0bd8e6f">1.7.4. DataSets</a></li>
 </ul>
 </li>
-<li><a href="#org5076398">1.8. Memory Networks:</a>
+<li><a href="#orge3be888">1.8. Memory Networks:</a>
 <ul>
-<li><a href="#orgd4d07b2">1.8.1. OpenQA with Weakly Embedded Models</a></li>
-<li><a href="#orgeb59201">1.8.2. QA with subgraph embeddings</a></li>
-<li><a href="#org57a3f98">1.8.3. Memory Networks</a></li>
-<li><a href="#orgdfa2770">1.8.4. Towards AI-Complete QA</a></li>
-<li><a href="#org09b2c39">1.8.5. End-to-End Memory Networks</a></li>
-<li><a href="#org163ba76">1.8.6. Large Scale Simple QA</a></li>
-<li><a href="#org1eb246c">1.8.7. Key-Value Memory Networks</a></li>
-<li><a href="#org177dc5d">1.8.8. Recurrent Entity Networks</a></li>
-<li><a href="#orgec02195">1.8.9. Evaluating Prerequisite Qualities for End-to-End Dialog Systems</a></li>
-<li><a href="#orgcc4cd4b">1.8.10. Dialog-based Language Learning</a></li>
-<li><a href="#org3fda748">1.8.11. Memory Network Extensions</a></li>
-<li><a href="#org26e465d">1.8.12. Datasets</a></li>
+<li><a href="#org0b3da41">1.8.1. OpenQA with Weakly Embedded Models</a></li>
+<li><a href="#org199affc">1.8.2. QA with subgraph embeddings</a></li>
+<li><a href="#orgaa202c8">1.8.3. Memory Networks</a></li>
+<li><a href="#org0abcb79">1.8.4. Towards AI-Complete QA</a></li>
+<li><a href="#org91f868c">1.8.5. End-to-End Memory Networks</a></li>
+<li><a href="#orgf22cb57">1.8.6. Large Scale Simple QA</a></li>
+<li><a href="#orga1c8405">1.8.7. Key-Value Memory Networks</a></li>
+<li><a href="#orgb1767fe">1.8.8. Recurrent Entity Networks</a></li>
+<li><a href="#orgc0fdfb7">1.8.9. Evaluating Prerequisite Qualities for End-to-End Dialog Systems</a></li>
+<li><a href="#org1655ea3">1.8.10. Dialog-based Language Learning</a></li>
+<li><a href="#orgc73f335">1.8.11. Memory Network Extensions</a></li>
+<li><a href="#org15065c0">1.8.12. Datasets</a></li>
 </ul>
 </li>
-<li><a href="#org84510bb">1.9. IBM DeepQA (Watson)</a></li>
-<li><a href="#org9e57997">1.10. Chained Reasoning Questions</a>
+<li><a href="#orgc56bfce">1.9. IBM DeepQA (Watson)</a></li>
+<li><a href="#org1bdb873">1.10. Chained Reasoning Questions</a>
 <ul>
-<li><a href="#orgbddd2d4">1.10.1. Important Papers</a></li>
-<li><a href="#orgd445cdb">1.10.2. DataSets</a></li>
+<li><a href="#org035adbc">1.10.1. Important Papers</a></li>
+<li><a href="#org3e3b8c7">1.10.2. DataSets</a></li>
 </ul>
 </li>
-<li><a href="#orgff42391">1.11. Semantic Parsing</a>
+<li><a href="#org459faec">1.11. Semantic Parsing</a>
 <ul>
-<li><a href="#orgb341f51">1.11.1. Overview &amp; Important Papers</a></li>
-<li><a href="#org5ebbbeb">1.11.2. DataSets</a></li>
+<li><a href="#org4fcc9fe">1.11.1. Overview &amp; Important Papers</a></li>
+<li><a href="#org8772255">1.11.2. DataSets</a></li>
 </ul>
 </li>
-<li><a href="#org21fedf2">1.12. Natural Language Inference</a></li>
-<li><a href="#orgc54e583">1.13. Pipeline</a>
+<li><a href="#org3f5eb84">1.12. Natural Language Inference</a></li>
+<li><a href="#orgb9d2a44">1.13. Pipeline</a>
 <ul>
-<li><a href="#org37897c7">1.13.1. AskMSR</a></li>
-<li><a href="#org0026797">1.13.2. Ephyra</a></li>
-<li><a href="#org9f32d11">1.13.3. Jacana</a></li>
-<li><a href="#org1471eeb">1.13.4. openQA</a></li>
-<li><a href="#orgc0dff27">1.13.5. OAQA</a></li>
-<li><a href="#orge955e7b">1.13.6. WatsonSim</a></li>
-<li><a href="#orgdb6b205">1.13.7. YodaQA</a></li>
-<li><a href="#org57c1e90">1.13.8. QuASE</a></li>
+<li><a href="#orgee11eca">1.13.1. AskMSR</a></li>
+<li><a href="#orgf45801b">1.13.2. Ephyra</a></li>
+<li><a href="#orgc1931e4">1.13.3. Jacana</a></li>
+<li><a href="#orgcfb231d">1.13.4. openQA</a></li>
+<li><a href="#org86ceddb">1.13.5. OAQA</a></li>
+<li><a href="#org2924ceb">1.13.6. WatsonSim</a></li>
+<li><a href="#orge1e49c8">1.13.7. YodaQA</a></li>
+<li><a href="#orgaee0c35">1.13.8. QuASE</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li><a href="#org5c17efc">2. Paraphrase Detection</a>
+<li><a href="#org76551b5">2. Paraphrase Detection</a>
 <ul>
-<li><a href="#org1614968">2.1. Taxonomy</a></li>
-<li><a href="#orge342568">2.2. Dataset Papers and Datasets</a>
+<li><a href="#org6bcf9a7">2.1. Taxonomy</a></li>
+<li><a href="#org88505cc">2.2. Dataset Papers and Datasets</a>
 <ul>
-<li><a href="#orge466797">2.2.1. Microsoft Research Paraphrase Corpus</a></li>
-<li><a href="#orgb697eaf">2.2.2. Other DataSet Papers</a></li>
-<li><a href="#orgc65dbf4">2.2.3. Datasets</a></li>
+<li><a href="#org0b80b81">2.2.1. Microsoft Research Paraphrase Corpus</a></li>
+<li><a href="#org9bf58be">2.2.2. Other DataSet Papers</a></li>
+<li><a href="#orga135297">2.2.3. Datasets</a></li>
 </ul>
 </li>
-<li><a href="#org1122827">2.3. Important Papers</a>
+<li><a href="#orgd8f6796">2.3. Important Papers</a>
 <ul>
-<li><a href="#org6e34381">2.3.1. ECNU at SemEval 2017</a></li>
-<li><a href="#org0e8f36f">2.3.2. Discriminative Improvements to Distributional Sentence Similarity</a></li>
-<li><a href="#org9b57486">2.3.3. MayoNLP at SemEval-2016</a></li>
-<li><a href="#org72b6c16">2.3.4. Neural Paraphrase Identification of Questions with Noisy Pretraining</a></li>
-<li><a href="#org7c74acf">2.3.5. BiMPM Model</a></li>
-<li><a href="#org8d8c297">2.3.6. more papers</a></li>
+<li><a href="#org3bacc6e">2.3.1. ECNU at SemEval 2017</a></li>
+<li><a href="#org24eac92">2.3.2. Discriminative Improvements to Distributional Sentence Similarity</a></li>
+<li><a href="#org5cfc895">2.3.3. MayoNLP at SemEval-2016</a></li>
+<li><a href="#org41d29ef">2.3.4. Neural Paraphrase Identification of Questions with Noisy Pretraining</a></li>
+<li><a href="#org7ebe8ce">2.3.5. BiMPM Model</a></li>
+<li><a href="#org11b7123">2.3.6. more papers</a></li>
 </ul>
 </li>
-<li><a href="#org5e38310">2.4. State of Art Papers on MSRPC</a></li>
-<li><a href="#org92ada10">2.5. Review Paper</a></li>
-<li><a href="#orgff7e27b">2.6. Related Papers</a></li>
-<li><a href="#org3cbbe63">2.7. Learning to Paraphrase: An Unsupervised Approach Using Multiple-Sequence Alignment</a></li>
-<li><a href="#orgb0de3e6">2.8. Theory</a></li>
+<li><a href="#org0549a86">2.4. State of Art Papers on MSRPC</a></li>
+<li><a href="#org707dd1a">2.5. Review Paper</a></li>
+<li><a href="#org8c7bb25">2.6. Related Papers</a></li>
+<li><a href="#org380c248">2.7. Learning to Paraphrase: An Unsupervised Approach Using Multiple-Sequence Alignment</a></li>
+<li><a href="#org11a8b81">2.8. Theory</a></li>
 </ul>
 </li>
-<li><a href="#org75cdea5">3. Question Generation</a>
+<li><a href="#orgcfd873d">3. Question Generation</a>
 <ul>
-<li><a href="#org514c4cf">3.1. Rule based approaches</a>
+<li><a href="#org4a8ab72">3.1. Rule based approaches</a>
 <ul>
-<li><a href="#org0376d7f">3.1.1. Syntax Based</a></li>
-<li><a href="#org9d3fa67">3.1.2. Semantic based</a></li>
+<li><a href="#orga86b104">3.1.1. Syntax Based</a></li>
+<li><a href="#org2f53290">3.1.2. Semantic based</a></li>
 </ul>
 </li>
-<li><a href="#orgd3fb162">3.2. RNN Approaches</a>
+<li><a href="#orgbf7d8cc">3.2. RNN Approaches</a>
 <ul>
-<li><a href="#orgfe28075">3.2.1. QG From KB Triples</a></li>
-<li><a href="#org3f75452">3.2.2. QG from Document conditioned on answer</a></li>
-<li><a href="#org4f98c94">3.2.3. More</a></li>
+<li><a href="#orgd5b6d66">3.2.1. QG From KB Triples</a></li>
+<li><a href="#org605192d">3.2.2. QG from Document conditioned on answer</a></li>
+<li><a href="#orgfe6014e">3.2.3. More</a></li>
 </ul>
 </li>
-<li><a href="#org4f975a8">3.3. Other Approaches</a></li>
+<li><a href="#org6512786">3.3. Other Approaches</a></li>
 </ul>
 </li>
-<li><a href="#org9ffa4f7">4. Misc</a>
+<li><a href="#orgaf3f18c">4. Misc</a>
 <ul>
-<li><a href="#org5ed6edd">4.1. Definitions / Summarization</a>
+<li><a href="#orgea8ce45">4.1. Definitions / Summarization</a>
 <ul>
-<li><a href="#org9329c17">4.1.1. Important Papers</a></li>
-<li><a href="#org2b15726">4.1.2. DataSets</a></li>
+<li><a href="#org90e72da">4.1.1. Important Papers</a></li>
+<li><a href="#org8db65dc">4.1.2. DataSets</a></li>
 </ul>
 </li>
-<li><a href="#orgb09f994">4.2. Visual QA</a></li>
-<li><a href="#org8c77a2d">4.3. Dialog Generation</a>
+<li><a href="#org0ef8940">4.2. Visual QA</a></li>
+<li><a href="#orgaa0e98e">4.3. Dialog Generation</a>
 <ul>
-<li><a href="#orgc2d4ba4">4.3.1. Benchmark Dataset</a></li>
-<li><a href="#orgf1191bb">4.3.2. Learning End-to-End Goal-Oriented Dialog</a></li>
-<li><a href="#orgcbbb0a1">4.3.3. Sequence-to-Sequence Models</a></li>
-<li><a href="#org14f6a30">4.3.4. Spoken Dialog</a></li>
+<li><a href="#org5e2d8d0">4.3.1. Benchmark Dataset</a></li>
+<li><a href="#org1127233">4.3.2. Learning End-to-End Goal-Oriented Dialog</a></li>
+<li><a href="#org69a70f2">4.3.3. Sequence-to-Sequence Models</a></li>
+<li><a href="#org0da5e66">4.3.4. Spoken Dialog</a></li>
 </ul>
 </li>
 </ul>
@@ -162,12 +162,12 @@
 </div>
 
 
-<a id="orga5958ac"></a>
+<a id="org9cfe32c"></a>
 
 # Question & Answering
 
 
-<a id="org8d68245"></a>
+<a id="org0cb293b"></a>
 
 ## Question Taxonomy
 
@@ -177,12 +177,12 @@
     -   <https://research.fb.com/projects/babi/>
 
 
-<a id="org8a1e4f8"></a>
+<a id="orga9a8444"></a>
 
 ## Question Analysis
 
 
-<a id="org9d14f01"></a>
+<a id="org23af8d6"></a>
 
 ### Watson Q Analysis
 
@@ -278,12 +278,12 @@
         -   Q Class: Factoid:numerical
 
 
-<a id="org6084179"></a>
+<a id="org73db527"></a>
 
 ## Information Extraction (Knowledge Base Population)
 
 
-<a id="org82a1dbe"></a>
+<a id="orgf54ee26"></a>
 
 ### Introduction:
 
@@ -303,7 +303,7 @@
 -   <https://web.stanford.edu/~jurafsky/slp3/21.pdf>
 
 
-<a id="org90c868c"></a>
+<a id="orga9cf2cd"></a>
 
 ### NER
 
@@ -349,7 +349,7 @@
     -   [Entity Linking at Web Scale - WashU/OpenIE - 2012 - c71](https://www.semanticscholar.org/paper/Entity-Linking-at-Web-Scale-Lin/c5c08e6dec3bf8a036607593e11e389697e03f45)
 
 
-<a id="orgf568260"></a>
+<a id="orgc43d68e"></a>
 
 ### Relation Extraction (RE)
 
@@ -361,7 +361,7 @@
         which means a is part of b and c is part of d, e.g. 'united airlines' is part
         of UAL and 'american airlines' is part of AMR.
         
-        ![img](/Users/qv/data-science/nlp/images/model-based-view-of-relations-and-entities.png)
+        ![img](./images/model-based-view-of-relations-and-entities.png)
     
     -   **RDF** or resource description format used for storing facts in DBPedia as
         a relation-entity-relation tuple
@@ -542,19 +542,19 @@
     -   [DeepDive: Web-scale Knowledge-base Construction using Statistical Learning and Inference - WisMed - VLDS 2012 - c72](https://www.semanticscholar.org/paper/DeepDive-Web-scale-Knowledge-base-Construction-usi-Niu-Zhang/3176be871d8199bd9bbbfd2a4064d195cc334ca8)
 
 
-<a id="org704d49f"></a>
+<a id="org196241c"></a>
 
 ## QA from Structured KB
 
 
-<a id="orgc1c8e96"></a>
+<a id="org707d468"></a>
 
 ### KBs
 
 -   [DBpedia - A crystallization point for the Web of Data - Bizer et al - 2009 - c1442](https://www.semanticscholar.org/paper/DBpedia-A-crystallization-point-for-the-Web-of-Bizer-Lehmann/20a773041aa5667fbcf5378ac87cad2edbfd28b7)
 
 
-<a id="org3eecc02"></a>
+<a id="org0b0dc58"></a>
 
 ### KBQA
 
@@ -634,7 +634,7 @@
         -   [Large Scale Simple QA](file:///Users/qv/nlp/gd/qa_papers/facebook/memory-networks.md)
 
 
-<a id="org41c30b8"></a>
+<a id="orga0cb64d"></a>
 
 ### Attention
 
@@ -665,7 +665,7 @@
         
         -   **Relation Detection at Different Levels of Granularity**
             
-            ![img](/Users/qv/data-science/nlp/images/entity-linking-relation-detection.png)
+            ![img](./images/entity-linking-relation-detection.png)
             
             -   Done at  **multi-levels** of Relation Representation:
                 -   **Word-level representation:**
@@ -753,7 +753,7 @@
                     Networks (He et al., 2016) for hierarchical matching by adding shortcut
                     connections between two BiLSTM layers. See figure Below.
                     
-                    ![img](/Users/qv/data-science/nlp/images/HR-BiLSTM.png)
+                    ![img](./images/HR-BiLSTM.png)
                     
                     Here we do point-wise sum of output from cells of each of the 2
                     Bi-LSTM layers
@@ -839,7 +839,7 @@
         -   State of Art
 
 
-<a id="org996cc1f"></a>
+<a id="org3c5fb3d"></a>
 
 ### Inference in KBs
 
@@ -847,12 +847,12 @@
 -   [Chains of Reasoning over Entities, Relations, and Text using Recurrent Neural Networks - Das et al. (UMass) - 2016](https://www.semanticscholar.org/paper/Chains-of-Reasoning-over-Entities-Relations-and-Te-Das-Neelakantan/2ef1c92a9703d51631f4c52a9dcd8d20e80ebb08)
 
 
-<a id="orgc7f9c1c"></a>
+<a id="orgfc8631a"></a>
 
 ## IR based QA
 
 
-<a id="org2dca32a"></a>
+<a id="org969d02a"></a>
 
 ### Semantic Search
 
@@ -861,7 +861,7 @@
 -   [Semantic search - Guha et al. 2003 - c622](https://www.semanticscholar.org/paper/Semantic-search-Guha-McCool/2c3b301d8ecb8c1f491937de76a4b97d93b68375)
 
 
-<a id="orgf7021a5"></a>
+<a id="orgc98d184"></a>
 
 ### Query Preprocessing
 
@@ -878,7 +878,7 @@
         -   <https://github.com/tensorflow/models/tree/master/skip_thoughts>
 
 
-<a id="orgdbd847f"></a>
+<a id="orgff007b7"></a>
 
 ### Query Formulation
 
@@ -886,27 +886,27 @@
 -   [The Structure and Performance of an Open-Domain Question Answering System - Maldovan et al - acl 2000 - c104](https://www.semanticscholar.org/paper/The-Structure-and-Performance-of-an-Open-Domain-Qu-Moldovan-Harabagiu/a172a5c7856f27588ac45c1df6d1463a0c4eb3b5)
 
 
-<a id="orge4504b6"></a>
+<a id="orgeda6f19"></a>
 
 ### Important Papers
 
 
-<a id="orgde5cb08"></a>
+<a id="orgc7e4892"></a>
 
 ### DataSets
 
 
-<a id="orgc1d0abb"></a>
+<a id="org533f4da"></a>
 
 ### Overall Pipeline\* [NLP Coursera Slides](http://spark-public.s3.amazonaws.com/nlp/slides/qa.pdf)
 
 
-<a id="org0802c5f"></a>
+<a id="org43e5390"></a>
 
 ## Answer Sentence Selection
 
 
-<a id="org539f571"></a>
+<a id="org94d1d59"></a>
 
 ### LDC Method
 
@@ -942,7 +942,7 @@
         art.
 
 
-<a id="org730bb29"></a>
+<a id="org10310ed"></a>
 
 ### Important Papers
 
@@ -950,12 +950,12 @@
     -   [local annotated copy](file:///Users/qv/nlp/gd/qa_papers/deepmind/nn-sentence-selection.pdf)
 
 
-<a id="org04e8e0e"></a>
+<a id="org5f70032"></a>
 
 ## Machine Comprehension
 
 
-<a id="orgf8e9ad0"></a>
+<a id="orga97b18f"></a>
 
 ### multi-context using seq2seq model
 
@@ -970,14 +970,14 @@
 -   [Recurrent Entity Networks](file:///Users/qv/nlp/gd/qa_papers/facebook/memory-networks.md)
 
 
-<a id="orgebfd6b4"></a>
+<a id="org4bcdbb0"></a>
 
 ### Using Memory Networks (from of attention)
 
 -   [Key-Value Memory Networks](file:///Users/qv/nlp/gd/qa_papers/facebook/memory-networks.md)
 
 
-<a id="org8f81aa6"></a>
+<a id="org1f2464d"></a>
 
 ### Using Manually Curated Syntactic/Semantic Features
 
@@ -987,7 +987,7 @@
 -   [Machine comprehension with syntax, frames, and semantics - Wang et al - 2015](https://www.semanticscholar.org/paper/Machine-Comprehension-with-Syntax-Frames-and-Wang-Bansal/5851976742251df7cfbe286c41764e3a5ff061dc)
 
 
-<a id="orgfad30ea"></a>
+<a id="org0bd8e6f"></a>
 
 ### DataSets
 
@@ -996,12 +996,12 @@
         machine comprehension of text.
 
 
-<a id="org5076398"></a>
+<a id="orge3be888"></a>
 
 ## Memory Networks:
 
 
-<a id="orgd4d07b2"></a>
+<a id="org0b3da41"></a>
 
 ### OpenQA with Weakly Embedded Models
 
@@ -1084,7 +1084,7 @@
         std. deviation of \(1/k\) where \(k\) is the length of the vector.
 
 
-<a id="orgeb59201"></a>
+<a id="org199affc"></a>
 
 ### QA with subgraph embeddings
 
@@ -1170,7 +1170,7 @@
         -   Ensemble with (Berant & Liang, 14): F1(Berant) = 41.8 F1(Yang) = 45.7
 
 
-<a id="org57a3f98"></a>
+<a id="orgaa202c8"></a>
 
 ### Memory Networks
 
@@ -1184,7 +1184,7 @@
         -   Auto-generated QA from ReVerb KB
 
 
-<a id="orgdfa2770"></a>
+<a id="org0abcb79"></a>
 
 ### Towards AI-Complete QA
 
@@ -1193,7 +1193,7 @@
 -   **Dataset:** BabI (introduced by this paper)
 
 
-<a id="org09b2c39"></a>
+<a id="org91f868c"></a>
 
 ### End-to-End Memory Networks
 
@@ -1209,7 +1209,7 @@
 -   **Dataset:** BabI
 
 
-<a id="org163ba76"></a>
+<a id="orgf22cb57"></a>
 
 ### Large Scale Simple QA
 
@@ -1263,7 +1263,7 @@
     -   WebQuestions = 41.9,  SimpleQuestions = 63.9, Paraphrases = 68
 
 
-<a id="org1eb246c"></a>
+<a id="orga1c8405"></a>
 
 ### Key-Value Memory Networks
 
@@ -1276,7 +1276,7 @@
         -   IE based KB (extracted using IE techniques from Wikipedia articles of
             movies in OMDB) - maps to **QA from Structured KB**
         -   Document (Wikipedia) - maps to **Machine Comprehension** described below in
-            the section on [1.8.7.1](#orga655b4e)
+            the section on [1.8.7.1](#org2b630e8)
     -   Data
         -   (WikiMovies): 120k QA pairs programatically generated generated using
             templates derived from SimpleQuestions which are then applied to
@@ -1373,28 +1373,28 @@
             name
 
 
-<a id="org177dc5d"></a>
+<a id="orgb1767fe"></a>
 
 ### Recurrent Entity Networks
 
 -   [Tracking the State of the World using REN - Dec 2016](file:///Users/qv/nlp/gd/qa_papers/facebook/TRACKING-THE-WORLD-STATE-WITH-RECURRENT-ENTITY-NETWORKS.pdf)
 
 
-<a id="orgec02195"></a>
+<a id="orgc0fdfb7"></a>
 
 ### Evaluating Prerequisite Qualities for End-to-End Dialog Systems
 
 -   [Evaluating Prerequisite Qualities For Learning End-To-End Dialog Systems - 2016](https://www.semanticscholar.org/paper/Evaluating-Prerequisite-Qualities-for-Learning-End-Dodge-Gane/460123699ced86c37f830770279c8d67add2c684)
 
 
-<a id="orgcc4cd4b"></a>
+<a id="org1655ea3"></a>
 
 ### Dialog-based Language Learning
 
 -   [Dialog-based Language Learning - NIPS 2016](https://www.semanticscholar.org/paper/Dialog-based-Language-Learning-Weston/001df9e3da7b78e007ec8494606ad4e4d4dabd35)
 
 
-<a id="org3fda748"></a>
+<a id="orgc73f335"></a>
 
 ### Memory Network Extensions
 
@@ -1433,7 +1433,7 @@
     -   See A.2 of [Towards AI-Complete QA](file:///Users/qv/data-science/nlp/qa_papers/facebook/ai-complete-qa-set-of-toy-tasks.pdf)
 
 
-<a id="org26e465d"></a>
+<a id="org15065c0"></a>
 
 ### Datasets
 
@@ -1732,7 +1732,7 @@
 </table>
 
 
-<a id="org84510bb"></a>
+<a id="orgc56bfce"></a>
 
 ## IBM DeepQA (Watson)
 
@@ -1928,7 +1928,7 @@
         structure.  The last column represents features which are syntactic as well
         as semantic. For more details read [Using Slot Grammar](https://www.semanticscholar.org/paper/Using-Slot-Grammar-McCord/3be87fb8fdec1b89970084cc47b1bf45dd3764de) .
         
-        ![img](/Users/qv/data-science/nlp/images/esg-parse-example.png)
+        ![img](./images/esg-parse-example.png)
         
         The following are the features of a node in an SG parse:
         
@@ -3756,12 +3756,12 @@
     -   [Unsupervised Entity-Relation Analysis in IBM Watson - IBM - 2015](file:///Users/qv/nlp/gd/qa_papers/pipelines/DeepQA/Unsupervised Entity-Relation Analysis in IBM Watson  .pdf)
 
 
-<a id="org9e57997"></a>
+<a id="org1bdb873"></a>
 
 ## Chained Reasoning Questions
 
 
-<a id="orgbddd2d4"></a>
+<a id="org035adbc"></a>
 
 ### Important Papers
 
@@ -3790,17 +3790,17 @@
     [RelNet: End-to-end Modeling of Entities&Relations - Bansal & McCallum - 2017](https://www.semanticscholar.org/paper/RelNet-End-to-end-Modeling-of-Entities-Relations-Bansal-Neelakantan/bdf8c6267e836b75d51ac61c875f7a7c76019a01)
 
 
-<a id="orgd445cdb"></a>
+<a id="org3e3b8c7"></a>
 
 ### DataSets
 
 
-<a id="orgff42391"></a>
+<a id="org459faec"></a>
 
 ## Semantic Parsing
 
 
-<a id="orgb341f51"></a>
+<a id="org4fcc9fe"></a>
 
 ### Overview & Important Papers
 
@@ -3855,7 +3855,7 @@
         -   Simple Commands : intent/context generation (e.g. in wit.ai)
 
 
-<a id="org5ebbbeb"></a>
+<a id="org8772255"></a>
 
 ### DataSets
 
@@ -3873,7 +3873,7 @@
     -   NLMaps - 2380 questions
 
 
-<a id="org21fedf2"></a>
+<a id="org3f5eb84"></a>
 
 ## Natural Language Inference
 
@@ -3903,12 +3903,12 @@
 -   [Bowman cs224u guest lecture slides](http://web.stanford.edu/class/cs224u/materials/cs224u-2016-bowman.pdf)
 
 
-<a id="orgc54e583"></a>
+<a id="orgb9d2a44"></a>
 
 ## Pipeline
 
 
-<a id="org37897c7"></a>
+<a id="orgee11eca"></a>
 
 ### AskMSR
 
@@ -3917,7 +3917,7 @@
 -   [AskMSR: Question Answering Using the Worldwide Web - Microsoft Research - 2002 - c50](https://www.semanticscholar.org/paper/AskMSR-Question-Answering-Using-the-Worldwide-Web-Banko-Brill/1227611aa17ac693e2770b6484a0759dd21d2b8b)
 
 
-<a id="org0026797"></a>
+<a id="orgf45801b"></a>
 
 ### Ephyra
 
@@ -3925,7 +3925,7 @@
     Karlsruhe - 2006](https://www.semanticscholar.org/paper/A-Pattern-Learning-Approach-to-Question-Answering-Schlaefer-Gieselmann/a088bed7ac41ae77dbb23041626eb8424d96a5ba)
 
 
-<a id="org9f32d11"></a>
+<a id="orgc1931e4"></a>
 
 ### Jacana
 
@@ -3933,14 +3933,14 @@
 -   [Automatic Coupling of Answer Extraction and Information Retrieval - John Hopkins ACL 2013](https://www.semanticscholar.org/paper/Automatic-Coupling-of-Answer-Extraction-and-Yao-Durme/97ef1e8e5860ba2102058cccb39bae94c0d441fb)
 
 
-<a id="org1471eeb"></a>
+<a id="orgcfb231d"></a>
 
 ### openQA
 
 -   Open source question answering framework.
 
 
-<a id="orgc0dff27"></a>
+<a id="org86ceddb"></a>
 
 ### OAQA
 
@@ -3948,45 +3948,45 @@
 -   [Towards the open advancement of question answer systems - Ferruci - 2009](file:///Users/qv/nlp/gd/qa_papers/IBM-DeepQA/Towards the open advancement of question answer systems.pdf)
 
 
-<a id="orge955e7b"></a>
+<a id="org2924ceb"></a>
 
 ### WatsonSim
 
 -   [Watsonsim: Overview of a question answering engine - UNCC - 2014](https://www.semanticscholar.org/paper/Watsonsim-Overview-of-a-Question-Answering-Engine-Gallagher-Zadrozny/4113aeae85ae61bbb80baceb221031e1659d7729)
 
 
-<a id="orgdb6b205"></a>
+<a id="orge1e49c8"></a>
 
 ### YodaQA
 
 -   [YodaQA: A Modular Question Answering System Pipeline - Petr Baudis - 2014](file:///Users/qv/nlp/gd/qa_papers/pipelines/yodaqa-poster2015.pdf)
 
 
-<a id="org57c1e90"></a>
+<a id="orgaee0c35"></a>
 
 ### QuASE
 
 -   [Open Domain Question Answering via Semantic Enrichment - Sun et al - 2015](https://www.semanticscholar.org/paper/Open-Domain-Question-Answering-via-Semantic-Sun-Ma/84f134f0472b43f998cba05162ff6b41c12659c3)
 
 
-<a id="org5c17efc"></a>
+<a id="org76551b5"></a>
 
 # Paraphrase Detection
 
 
-<a id="org1614968"></a>
+<a id="org6bcf9a7"></a>
 
 ## Taxonomy
 
 -   [Squibs: What Is a Paraphrase? - Bhagat & Hovy - 2013](https://www.semanticscholar.org/paper/Squibs-What-Is-a-Paraphrase-Bhagat-Hovy/2d645fe507594a2be8c30b4781fa266c031e5f5e)
 
 
-<a id="orge342568"></a>
+<a id="org88505cc"></a>
 
 ## Dataset Papers and Datasets
 
 
-<a id="orge466797"></a>
+<a id="org0b80b81"></a>
 
 ### Microsoft Research Paraphrase Corpus
 
@@ -3995,7 +3995,7 @@
 -   [SVM for Paraphrase Identification and Corpus Construction - Brockett & Dolan - Microsoft Research - 2005 - c54](https://www.semanticscholar.org/paper/Support-Vector-Machines-for-Paraphrase-Identificat-Brockett-Dolan/23f8fa0b4a2db78a7a8dcc78494df8385b670f60)
 
 
-<a id="orgb697eaf"></a>
+<a id="org9bf58be"></a>
 
 ### Other DataSet Papers
 
@@ -4004,7 +4004,7 @@
     -   [local copy](file:///Users/qv/data-science/nlp/qa_papers/paraphrase/PPDB- The Paraphrase Database.pdf)
 
 
-<a id="orgc65dbf4"></a>
+<a id="orga135297"></a>
 
 ### Datasets
 
@@ -4026,12 +4026,12 @@
     -   <https://drive.google.com/drive/u/0/folders/0B-btHzfJjPnobXZ0MndjSkxkRkk>
 
 
-<a id="org1122827"></a>
+<a id="orgd8f6796"></a>
 
 ## Important Papers
 
 
-<a id="org6e34381"></a>
+<a id="org3bacc6e"></a>
 
 ### ECNU at SemEval 2017
 
@@ -4039,7 +4039,7 @@
     -   A giant ensemble of traditional NLP features as well as DNN features. The
         arch is shown below
         
-        ![img](ecnu-semeval-2017-arch.png)
+        ![img](./images/ecnu-semeval-2017-arch.png)
     
     -   **Traditional NLP features:** There are 2 sub-types of Traditional NLP
         features
@@ -4091,7 +4091,7 @@
     -   [local copy](file:///Users/qv/data-science/nlp/qa_papers/paraphrase/ECNU at SemEval-2017 Task 1 - semantic similarity.pdf)
 
 
-<a id="org0e8f36f"></a>
+<a id="org24eac92"></a>
 
 ### Discriminative Improvements to Distributional Sentence Similarity
 
@@ -4140,17 +4140,17 @@
     -   Results
 
 
-<a id="org9b57486"></a>
+<a id="org5cfc895"></a>
 
 ### MayoNLP at SemEval-2016
 
 -   **Preprocessing:**
     
-    ![img](/Users/qv/data-science/nlp/images/mayonlp-semeval2017-preprocessing.png)
+    ![img](./images/mayonlp-semeval2017-preprocessing.png)
 
 -   Model Architecture
 
--   ![img](/Users/qv/data-science/nlp/images/mayonlp-semeval2017-arch.png)
+-   ![img](./images/mayonlp-semeval2017-arch.png)
 
 -   Uses 3 features for modeling the semantic similarity of a pair of sentences:
     -   semantic similarity
@@ -4213,7 +4213,7 @@
 -   **Results:** Best on question-question paraphrase
 
 
-<a id="org72b6c16"></a>
+<a id="org41d29ef"></a>
 
 ### Neural Paraphrase Identification of Questions with Noisy Pretraining
 
@@ -4260,7 +4260,7 @@
     -   Results on  Quora: Acc = 88.4
 
 
-<a id="org7c74acf"></a>
+<a id="org7ebe8ce"></a>
 
 ### BiMPM Model
 
@@ -4273,7 +4273,7 @@
 
 -   \*Architecture
     
-    ![img](/Users/qv/data-science/nlp/images/bimpm-arch.png)
+    ![img](./images/bimpm-arch.png)
     
     -   **Word Representation Layer:** The input layer uses word embeddings from
         pre-trained word vectors (e.g. GloVe) as well as word embeddings composed
@@ -4312,7 +4312,7 @@
         -   4 matching operations are defined which match one time step of one
             sequence with all time-steps of the other sequence as show below.
             
-            ![img](/Users/qv/data-science/nlp/images/bimpm-matching.png)
+            ![img](./images/bimpm-matching.png)
         
         -   This layer results in 8 fixed size vectors (4 matching strategies times 2
             directions of the BiLSTM) for each time step in each sequence. These are
@@ -4333,7 +4333,7 @@
     -   [Code](https://github.com/zhiguowang/BiMPM)
 
 
-<a id="org8d8c297"></a>
+<a id="org11b7123"></a>
 
 ### more papers
 
@@ -4343,7 +4343,7 @@
 -   SemEval-2012 Task 6: A Pilot on Semantic Textual Similarity - Agirre et al -NAACL-HTL 2012
 
 
-<a id="org5e38310"></a>
+<a id="org0549a86"></a>
 
 ## State of Art Papers on MSRPC
 
@@ -4370,14 +4370,14 @@
     -   Results on  MSRPC: Acc = 81.3, F1 = 70.3
 
 
-<a id="org92ada10"></a>
+<a id="org707dd1a"></a>
 
 ## Review Paper
 
 -   [Generating Phrasal and Sentential Paraphrases: A Survey of Data-Driven Methods - Madnani et al - Computational Linguistics - 2010 - c156](https://www.semanticscholar.org/paper/Generating-Phrasal-and-Sentential-Paraphrases-A-Su-Madnani-Dorr/0c48f5cf243bb13825f4be5d9c38f13065cd6598?citingPapersSort=is-influential&citingPapersLimit=10&citingPapersOffset=0&citedPapersSort=is-influential&citedPapersLimit=10&citedPapersOffset=0)
 
 
-<a id="orgff7e27b"></a>
+<a id="org8c7bb25"></a>
 
 ## Related Papers
 
@@ -4391,7 +4391,7 @@
 -   [Paraphrasing Revisited with Neural Machine Translation - Lapata et al - EACL 2017](https://www.semanticscholar.org/paper/Paraphrasing-Revisited-with-Neural-Machine-Transla-Lapata-Sennrich/0ac3f9bb8204afa4cbb85e0483b358d2b345410e)
 
 
-<a id="org3cbbe63"></a>
+<a id="org380c248"></a>
 
 ## Learning to Paraphrase: An Unsupervised Approach Using Multiple-Sequence Alignment
 
@@ -4399,7 +4399,7 @@
     -   [local copy](file:///Users/qv/data-science/nlp/qa_papers/paraphrase/Learning to Paraphrase- An Unsupervised Approach using MSA.pdf)
 
 
-<a id="orgb0de3e6"></a>
+<a id="org11a8b81"></a>
 
 ## Theory
 
@@ -4447,17 +4447,17 @@
         -   inspired by - [Semantic Parsing via Paraphrasing - Berant et al. - 2014](https://www.semanticscholar.org/paper/Semantic-Parsing-via-Paraphrasing-Berant-Liang/097665e66a05d316ad0e649fec374db44a485bda)
 
 
-<a id="org75cdea5"></a>
+<a id="orgcfd873d"></a>
 
 # Question Generation
 
 
-<a id="org514c4cf"></a>
+<a id="org4a8ab72"></a>
 
 ## Rule based approaches
 
 
-<a id="org0376d7f"></a>
+<a id="orga86b104"></a>
 
 ### Syntax Based
 
@@ -4511,7 +4511,7 @@
                 labels along with the syntactic structure of a given answer phrase to
                 generate zero or more question phrases
                 
-                ![img](/Users/qv/data-science/nlp/images/good-question-paper-fig1.png)
+                ![img](./images/good-question-paper-fig1.png)
         
         -   **Multiple Qs for each Source Sentence:** the above process results in
             multiple Qs per source sentences as there are multiple declarative
@@ -4554,7 +4554,7 @@
         -   All feature contribute significantly to the prediction.
 
 
-<a id="org9d3fa67"></a>
+<a id="org2f53290"></a>
 
 ### Semantic based
 
@@ -4676,7 +4676,7 @@
                     the semantic representation of mental states is a set of **mental contexts**
                     attached to different characters.
                     
-                    ![img](/Users/qv/data-science/nlp/images/semantic-network-1.png)
+                    ![img](./images/semantic-network-1.png)
                 
                 -   Arrows with big solid heads represent “sub-context” relation. Arrows with
                     dotted lines represent “in-context” relation. Arrows with solid lines
@@ -4814,7 +4814,7 @@
                 her grandmother’s appearance changed a lot. It turned out the wolf
                 pretended to be her grandmother &#x2026;
                 
-                ![img](/Users/qv/data-science/nlp/images/mental-context-1.png)
+                ![img](./images/mental-context-1.png)
                 
                 -   In this figure, Arrows with big solid heads represent “sub-context”
                     relation. Double-headed arrows represent “equals” relation. Arrows with
@@ -4907,7 +4907,7 @@
                     -   Figure below shows an example of how little redcap changes her mind
                         about the world according to the wolf’s intention and actions.
                         
-                        ![img](/Users/qv/data-science/nlp/images/mental-context-2.png)
+                        ![img](./images/mental-context-2.png)
         -   **Reference**
             -   [Modeling Mental Contexts and Their Interactions - Fahlman et al - CMU -  AAAI 2008](https://www.semanticscholar.org/paper/Modeling-Mental-Contexts-and-Their-Interactions-Chen-Fahlman/07059c1b51d5086f78fa5d8e54004406e91ab506)
                 -   [Local Copy](file:///Users/qv/data-science/nlp/qa_papers/Qgen/Modelling mental context and their interactions.pdf)
@@ -5046,12 +5046,12 @@
                 -   [Local Copy](file:///Users/qv/data-science/nlp/qa_papers/Qgen/Generating Questions Automatically from Informational Text.pdf)
 
 
-<a id="orgd3fb162"></a>
+<a id="orgbf7d8cc"></a>
 
 ## RNN Approaches
 
 
-<a id="orgfe28075"></a>
+<a id="orgd5b6d66"></a>
 
 ### QG From KB Triples
 
@@ -5181,7 +5181,7 @@
                 of the pairs in both the baseline-RNN as well as RNN-human cases.
 
 
-<a id="org3f75452"></a>
+<a id="org605192d"></a>
 
 ### QG from Document conditioned on answer
 
@@ -5189,7 +5189,7 @@
     -   [Local Copy](file:///Users/qv/data-science/nlp/qa_papers/Qgen/ MC by Text-to-Text Neural Question Generation.pdf)
 
 
-<a id="org4f98c94"></a>
+<a id="orgfe6014e"></a>
 
 ### More
 
@@ -5206,7 +5206,7 @@
 -   Question Generation from a Knowledge Base with Web Exploration - Song et al - 2017
 
 
-<a id="org4f975a8"></a>
+<a id="org6512786"></a>
 
 ## Other Approaches
 
@@ -5239,7 +5239,7 @@
 -   [Semantics-based Question Generation and Implementation - Yao et al - 2012](https://www.semanticscholar.org/paper/Semantics-based-Question-Generation-and-Implementa-Yao-Bouma/247f9272ef2c921b559f5ad1695330557450899a)
 
 
-<a id="org9ffa4f7"></a>
+<a id="orgaf3f18c"></a>
 
 # Misc
 
@@ -5247,12 +5247,12 @@
 -   [Building a Large Annotated Corpus of English: The Penn Treebank - Marcus - 1993 - c5887](https://www.semanticscholar.org/paper/Building-a-Large-Annotated-Corpus-of-English-The-Marcus-Santorini/0b44fcbeea9415d400c5f5789d6b892b6f98daff)
 
 
-<a id="org5ed6edd"></a>
+<a id="orgea8ce45"></a>
 
 ## Definitions / Summarization
 
 
-<a id="org9329c17"></a>
+<a id="org90e72da"></a>
 
 ### Important Papers
 
@@ -5266,12 +5266,12 @@
 -   [Get To The Point: Summarization with Pointer-Generator Networks - Manning et al - 2017](https://www.semanticscholar.org/paper/Get-To-The-Point-Summarization-with-Pointer-Genera-See-Liu/13db673d09f546698e0bfb6687beeb5345f81ad9)
 
 
-<a id="org2b15726"></a>
+<a id="org8db65dc"></a>
 
 ### DataSets
 
 
-<a id="orgb09f994"></a>
+<a id="org0ef8940"></a>
 
 ## Visual QA
 
@@ -5283,26 +5283,26 @@
 -   [Making the V in VQA Matter: Elevating the Role of Image Understanding in Visual QA - Goyal - 2016](https://www.semanticscholar.org/paper/Making-the-V-in-VQA-Matter-Elevating-the-Role-of-Goyal-Khot/62aaa33c46a7c4c2d8a80c81954101576200799d)
 
 
-<a id="org8c77a2d"></a>
+<a id="orgaa0e98e"></a>
 
 ## Dialog Generation
 
 
-<a id="orgc2d4ba4"></a>
+<a id="org5e2d8d0"></a>
 
 ### Benchmark Dataset
 
 [Evaluating Prerequisite Qualities for End-to-End Dialog Systems](file:///Users/qv/nlp/gd/qa_papers/facebook/memory-networks.md)
 
 
-<a id="orgf1191bb"></a>
+<a id="org1127233"></a>
 
 ### Learning End-to-End Goal-Oriented Dialog
 
 -   [Learning End-to-End Goal-Oriented Dialog](file:///Users/qv/nlp/gd/qa_papers/facebook/memory-networks.md)
 
 
-<a id="orgcbbb0a1"></a>
+<a id="org69a70f2"></a>
 
 ### Sequence-to-Sequence Models
 
@@ -5332,7 +5332,7 @@
     -   [slides](http://web.stanford.edu/class/cs224u/materials/cs224u-2016-li-chatbots.pdf)
 
 
-<a id="org14f6a30"></a>
+<a id="org0da5e66"></a>
 
 ### Spoken Dialog
 
